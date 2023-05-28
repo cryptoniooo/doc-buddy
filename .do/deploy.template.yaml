@@ -47,7 +47,7 @@ spec:
           scope: RUN_TIME
           value: "STORAGE_SECRET"
       github:
-        branch: main
+        branch: master
         repo: cryptoniooo/doc-buddy
       http_port: 8080
       instance_count: 1
@@ -70,7 +70,7 @@ spec:
           scope: RUN_TIME
           value: "doc-buddy-memory"
       github:
-        branch: main
+        branch: master
         repo: cryptoniooo/chatgpt-retrieval-plugin
       http_port: 8080
       instance_count: 1
